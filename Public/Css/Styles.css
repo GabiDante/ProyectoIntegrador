@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #8b939c;
+}
+.busqueda{
+    display: flex;
+    padding: 20px;
+    font-size: 15px;
+    position: absolute;
+    left: 180px;
+    top: 80px;
+}
+.login{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    right: 60px;
+    top: 50px;
+}
+.logo{
+    width: 15vh;;
+}
+header ul li{
+    list-style-type: none;
+}
+li{
+    padding-right: 20px;
+}
+.barra{
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    top: 55px;
+    left:180px;
+    border-radius: 30px;
+    border: 1px solid silver;
+    outline: none;
+    padding: 0px 22px;
+}
+.Ropa{
+    height: 400px;
+}
