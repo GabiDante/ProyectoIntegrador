@@ -45,3 +45,14 @@ li{
 .Ropa{
     height: 400px;
 }
+.botonRegistro { 
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    transition: all 1.5s ease;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    padding: 0;
+   
+}
