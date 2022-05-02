@@ -30,6 +30,7 @@ header ul li{
 }
 li{
     padding-right: 20px;
+    padding-left: 10px;
 }
 .barra{
     width: 400px;
@@ -42,9 +43,6 @@ li{
     outline: none;
     padding: 0px 22px;
 }
-.Ropa{
-    height: 400px;
-}
 .botonRegistro { 
     border: none;
     border-radius: 20px;
@@ -56,3 +54,94 @@ li{
     padding: 0;
    
 }
+.publicaciones{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.articulo{
+    padding: 10px;
+}
+.ropa{
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+}
+.titulo{
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+header{
+    background-color: #03a9f4;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+a:hover{
+        font-weight: bold;
+}
+.articulo:hover{
+    box-shadow: 7px 8px 32px #c5c5c5,
+    -6px -6px 12px #ffffff;
+}
+footer{
+    display: flex;
+    background-color: #03a9f4;
+    width: 100%;
+}
+footer ul li{
+    display: inline;
+    position: relative;
+    top: 100px;
+    left:20px;
+}
+footer .telefono{
+    position: relative;
+    left:750px;
+    top: 70px;
+    flex-wrap: wrap;
+}
+footer .fa-solid{
+    position: relative;
+    right: 30px;
+    top: 31px;
+}
+.logo{
+    display: flex;
+}
+button {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+   }
+   
+   button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   button:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+   
+   button:disabled {
+    cursor: auto;
+    color: grey;
+   }
+   .tipo{
+       width: 700px;
+       height: 30px;
+   }

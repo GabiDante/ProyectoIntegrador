@@ -21,3 +21,7 @@ app.get('/carrito', (req,res)=>{
 app.get('/market', (req,res)=>{
     res.sendFile(__dirname + '/views/market.html');
 });
+
+app.get('/venta', (req,res)=>{
+    res.sendFile(__dirname + '/views/venta.html');
+});
