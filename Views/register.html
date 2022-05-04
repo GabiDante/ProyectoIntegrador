@@ -3,25 +3,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/Styles.css">
     <title>Registro</title>
 
-<header>
-    <img src="/Imagenes/ClouthingARG2.png " class="Logo" alt="Logo Pagina">
-    <h1 class="titulo"> Bienvenidos al registro de Clouthing ARG</h1>  
-    <h2 class="subTitulo"> Brindanos Tus datos</h2>  
-</header>
+    <header>
+        <div class="Logo">
+        <script src="https://kit.fontawesome.com/6d495e19f9.js" crossorigin="anonymous"></script>
+        <img src="/Imagenes/ClouthingARG2.png " class="Logo" alt="Logo Pagina">
+        <h1 class="bienvenida">Bienvenidos a la pagina de registro</h1>
+        </div>
+    </header>
 <body>
-       
+    <div class="formCompleto"
        <form class="form">
             
         
         
-        <input class="cajas" type="text" placeholder="Nombre" required maxlength="30">
-        <input class="cajas" type="text" placeholder="Apellido" required maxlength="30">
-        <input class="cajas" type="email" placeholder="Email" required maxlength="30">
-        <input class="cajas" type="password" placeholder="Password" required maxlength="30">
-        <input class="cajas" type="password" placeholder="Repite tu contraseña" required maxlength="30">
-       
+
+            <div class="input-group">
+                <input required="" type="text" name="text" autocomplete="off" class="input" required maxlength="30">
+                <label class="user-label">Nombre</label>
+              </div>
+              <div class="input-group">
+                <input required="" type="text" name="text" autocomplete="off" class="input" required maxlength="30">
+                <label class="user-label">Apellido</label>
+              </div>
+              <div class="input-group">
+                <input required="" type="email" name="email" autocomplete="off" class="input" required maxlength="30">
+                <label class="user-label">E-mail</label>
+              </div>
+              <div class="input-group">
+                <input required="" type="password" name="password" autocomplete="off" class="input" required maxlength="30">
+                <label class="user-label">Contraseña</label>
+                </div>
+                <div class="input-group">
+                <input required="" type="password" name="repeatpassword" autocomplete="off" class="input" required maxlength="30">
+                <label class="user-label">Repite tu contraseña</label>
+              </div>
+     
         <p class="termino1"><input type="checkbox">  Estoy de acuerdo con <a class="termino2" href="">Terminos y Condiciones</a></p>
         
        
@@ -29,9 +48,20 @@
             <span> Registrarme
             </span>
           </button>
-    
+    </div>
 </body>
-<footer>
-
-</footer>
+<Footer>
+    <img src="/Imagenes/ClouthingARG2.png">
+    <ul>
+        <li><a href="#">Terminos y condiciones</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Cancelar una compra</a></li>
+        <li><a href="#">contacto</a></li>
+    </ul>  
+    <div class="telefono">
+            <i class="fa-solid fa-phone"></i>
+            <h2>atencion al cliente</h2>
+         <h3>0810-000-3112</h3>
+    </div>
+    </Footer>
 </html>
